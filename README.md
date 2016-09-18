@@ -22,7 +22,7 @@ vm2
 Install neccessary Ansible Roles
 
 ```bash
-ansible-galaxy install -r requirements.yml
+ansible-galaxy install -r roles/requirements.yml
 ```
 
 To form a swarm cluster use `swarm.yml`
