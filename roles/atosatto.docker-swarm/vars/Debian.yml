@@ -1,6 +1,0 @@
----
-
-default_docker_dependencies:
-  - linux-image-extra-virtual
-
-docker_py_package: python-docker

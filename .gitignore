@@ -1,0 +1,6 @@
+*.swp
+*.swo
+
+roles/*
+!roles/requirements.yml
+

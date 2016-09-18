@@ -1,5 +1,0 @@
----
-
-default_docker_dependencies: [ ]
-
-docker_py_package: python-docker-py
