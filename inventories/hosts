@@ -1,2 +1,12 @@
-[default]
-localhost
+vm1 ansible_host=192.168.56.101
+vm2 ansible_host=192.168.56.102
+
+[docker_engine]
+vm1
+vm2
+
+[docker_swarm_manager]
+vm1
+
+[docker_swarm_worker]
+vm2

@@ -1,0 +1,12 @@
+- name: "Deploy Files"
+  hosts: docker_engine
+  tasks:
+    - copy: src=files/project dest=/root
+
+- name: "Start Docker Services"
+  hosts: docker_swarm_manager
+  tasks:
+    - shell: |
+        docker-compose-swarm-mode -f /root/project/docker-compose.yml rm
+        docker-compose-swarm-mode -f /root/project/docker-compose.yml up -d
+
