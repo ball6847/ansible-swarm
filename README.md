@@ -54,4 +54,4 @@ You should see container id of the processing container each time wget run, this
 ## Thanks:
 
 - atosatto for [atosatto.docker-swarm](https://github.com/atosatto/ansible-dockerswarm)
-- ddrozdov for [docker-compose-swarm-mode)](https://github.com/ddrozdov/docker-compose-swarm-mode)
+- ddrozdov for [docker-compose-swarm-mode](https://github.com/ddrozdov/docker-compose-swarm-mode)
