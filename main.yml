@@ -1,0 +1,2 @@
+- include: swarm.yml
+- include: services.yml
